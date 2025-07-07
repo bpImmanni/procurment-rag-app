@@ -1,6 +1,9 @@
 streamlit
 openai
 langchain
+langchain-community
 faiss-cpu
 tqdm
 pandas
+python-dotenv
+requests
