@@ -1,6 +1,6 @@
 import streamlit as st
 import openai
-from langchain.document_loaders import CSVLoader
+from langchain_community.document_loaders import CSVLoader
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.llms import OpenAI
